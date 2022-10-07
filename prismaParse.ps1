@@ -1,8 +1,8 @@
 # This powershell script parses your prisma logs and outputs to csv user, user logout, user login, and session expire. 
 # The Prisma Access VPN provides a secure connection between your computing device and the cloud VPN gateway using the GlobalProtect VPN client
 
-$path = "C:\users\user\Documents\prisma.txt
-$destPath = "C:\users\user\Documents\vpnaudit.csv
+$path = "C:\users\user\Documents\prisma.txt"
+$destPath = "C:\users\user\Documents\vpnaudit.csv"
 
 $ipAddress = '(?:(?:1\d\d|2[0-5][0-5]|2[0-4]\d|0?[1-9]\d|0?0?\d)\.){3}(?:1\d\d|2[0-5][0-5]|2[0-4]\d|0?[1-9]\d|0?0?\d)'
 $email = '[A-Za-z]*\@company\.com'
